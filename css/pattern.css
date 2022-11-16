@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    position: relative;
+    top: 2.7px;
+    cursor: pointer;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    height: 80px;
+    position: absolute;
+    min-width: 1130px;
+}
+.logo{
+    max-width: 80%;
+    filter: invert(1);
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+}
+.menu li{
+    list-style: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 15px;
+    font-size: 25px;
+    background-color: #e9e9e9;
+    box-shadow: 0 2px 5px #cecfcf;
+    border-radius: 42px;
+}
+
+
+
+.middle{
+    min-height: 400px;
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.central_block{
+    width: 500px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.central_block .block{
+    background-color: #e9e9e9;
+    box-shadow: 0 2px 5px #cecfcf;
+    width: 90%;
+    border-radius: 15px;
+    padding: 10px;
+    min-height: 100px;
+}
+
+
+
+.middle2{
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 20px 100px 30px;
+}
+.middle2 > div{
+    padding: 15px;
+    border-radius: 25px;
+}
+.middle2 .central_block_one{
+    width: 15%;
+}
+
+.middle2 .central_block_two{
+    width: 77%;
+}
+.middle2 .block{
+    box-shadow: 0 2px 12px #cecfcf;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+
+.footer{
+    background-color: #1b120f;
+    padding-bottom: 40px;
+    color: #433a33;
+    font-size: larger;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px 30px 70px;
+    /* background-color: #555555; */
+}
+.about_waxon{
+    /* background-color: #837676; */
+    padding: 20px;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+.pages{
+    /* background-color: #815f5f; */
+    padding: 20px;
+    padding-top: 20px;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.need_help{
+    /* background-color: #584040; */
+    padding: 20px;
+    padding-top: 60px;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+.photo img{
+    max-width: 200%;
+
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 80px;
+    justify-content: center;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.short_description p{
+    font-size: 25px;
+}
+.standard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.standard_block{
+    margin-right: 10px;
+    margin-top: 2,5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: #e9e9e9;
+    box-shadow: 0 2px 5px #cecfcf;
+}
+.speciality{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.description_block{
+    margin-right: 10px;
+    margin-top: 2,5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: #e9e9e9;
+    box-shadow: 0 2px 5px #cecfcf;
+}
+
+.money_sum{
+    max-width: 45px;
+    border-radius: 10px;
+}
+
+.asd{
+    height: 50px;
+    background-color: black;
+}
+.center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

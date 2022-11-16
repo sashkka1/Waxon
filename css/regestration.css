@@ -1,0 +1,9 @@
+.central_block{
+    width: 600px;
+}
+.central_block .block{
+    padding-left: 25px;
+}
+.for_pad{
+    padding-left: 160px;
+}
